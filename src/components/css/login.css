@@ -1,0 +1,22 @@
+.login{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.login__container{
+   display: flex;
+   flex-direction: column;
+}
+.login__container >img{
+    object-fit: contain;
+    height:100px
+}
+.btn{
+    margin: 25px 0 !important;
+    background-color: blue!important;
+    color: whitesmoke!important;
+    cursor:pointer;
+}
+.btn:hover{
+    color:black!important;
+}
